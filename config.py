@@ -26,24 +26,24 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("26791021", "")
+    API_HASH  = os.environ.get("3442383c21f77943d32e6f60a31902ef", "")
+    BOT_TOKEN = os.environ.get("7501230505:AAHGMv-V0WApMyBW6X2xjP2xU3M8IkIezfw", "") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("THE_ANIMATION","pyro-botz")     
+    DB_URL  = os.environ.get("mongodb+srv://jaiabhishek13571:jai@13571#@cluster0.skwlt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0","")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+    START_PIC   = os.environ.get("https://telegra.ph/File-renamer-12-30", "")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('1438822893', '').split()]
+    FORCE_SUB   = os.environ.get("MOVIES_FILMOPHILE", "") 
+    LOG_CHANNEL = int(os.environ.get("MOVIES_FILMOPHILE"))
     MAX_CONCURRENT_TRANSMISSIONS = int(os.environ.get("MAX_CONCURRENT_TRANSMISSIONS", "2")) # Set the maximum amount of concurrent transmissions (uploads & downloads).
     
     # wes response configuration     
-    WEB_SUPPORT = bool(os.environ.get("WEB_SUPPORT", "True"))
+    WEB_SUPPORT = bool(os.environ.get("https://github.com/jai-abh/PYRO-RENAME-BOT/edit/main/config.py", "True"))
 
 
 
